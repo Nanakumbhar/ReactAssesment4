@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(130, 235, 235) 1%, pink 75% , rgb(130, 235, 235));
+}
+
+#Navbar{
+  background-color: blue;
+  padding: 5px;
+  margin-bottom: 3rem;
+  font-family: 'Courgette', cursive;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+.title{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.title:hover{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.text{
+  margin-left: 5rem;
+  font-size: 1.3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details{
+  margin: 0 5rem;
+}
+
+.header{
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2{
+  font-family: 'Secular One', sans-serif;
+}
+
+#butn{
+  font-size: 1.3rem;
+  padding: 0 2rem;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+td{
+  padding: 15px !important;
+}
+
+.algn{
+  text-align: right;
 }
